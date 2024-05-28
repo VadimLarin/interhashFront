@@ -1,0 +1,171 @@
+
+@font-face {
+    font-family: 'Moula';
+    src: url('/assets/fonts/Moula-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moula';
+    src: url('/assets/fonts/Moula-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moula';
+    src: url('/assets/fonts/Moula-ExtraBold.woff') format('woff');
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moula';
+    src: url('/assets/fonts/Moula-Black.woff') format('woff');
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+
+.container {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1402px;
+}
+
+.main_b1 {
+    margin: 0 0 80px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.main_b1_banner {
+    font-family: 'Moula';
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 73px 49.27% 93px 5.97%;
+    background: #232323 url(/assets/icons/bg_slide.svg) no-repeat bottom center;;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.main_b1_banner h1 {
+    position: relative;
+    z-index: 3;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 0 20px;
+}
+
+.main_b1_banner {
+    font-family: 'Moula';
+    position: relative;
+    z-index: 3;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin: 0 0 41px;
+}
+
+.desc {
+    font-family: 'Moula';
+    position: relative;
+    z-index: 3;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin: 0 0 41px;
+}
+
+.main_b1_banner_btn {
+    position: relative;
+    z-index: 3;
+}
+
+.main_b1_banner:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 49.63%;
+    bottom: 0;
+    background: url(/assets/icons/blur.svg) no-repeat bottom center;
+    background-size: 100%;
+}
+
+.main_b1_banner_img {
+    position: absolute;
+    z-index: 2;
+    right: 10.49%;
+    top: 0;
+    width: 34.03%;
+}
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Moula';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    border-radius: 10px;
+    padding: 20px 39px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background: linear-gradient(270deg, #7250E6 33%, #FF5C87 66%);
+    background-size: 300% 100%;
+    background-position: 66% 0;
+    animation: background 3s infinite alternate;
+}
+
+
+@media only screen and (max-width: 1259px) {
+    
+    
+    .main_b1_banner { padding-top: 53px; padding-bottom: 53px; }
+        .main_b1_banner_img { right: 5%; }
+    
+    
+}
+
+
+@media only screen and (max-width: 991px) {
+    
+    .main_b1_banner { padding-right: 45%; }
+        .main_b1_banner_img { width: 45%; right: 0; }
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+    .container { padding: 0 17px; }
+    .btn { padding: 18px 30px; font-size: 12px; border-radius: 10px; }
+    .icon { width: 44px; height: 44px; border-radius: 8px; }
+    .btn_violet { padding: 18px 30px; font-size: 12px; border-radius: 10px; min-width: 303px; }
+    
+    
+    .main_b1 { margin: 0 0 28px; }
+        .main_b1_banner { padding: 31px 19px 36px; }
+            .main_b1_banner h1 { margin: 0 0 16px; font-size: 30px; }
+            .main_b1_banner .desc { font-size: 18px; margin: 0 0 32px; line-height: 1.68; }
+            .main_b1_banner_btn .btn { width: 100%; }
+            .main_b1_banner_img { display: none; }
+            .main_b1_banner:after { content: none; display: none; }
+  
+}

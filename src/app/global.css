@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Moula';
+  src: url('/fonts/Moula-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Moula';
+  src: url('/Moula-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Moula';
+  src: url('/fonts/Moula-ExtraBold.woff') format('woff');
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Moula';
+  src: url('/fonts/Moula-Black.woff') format('woff');
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}

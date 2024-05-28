@@ -1,0 +1,117 @@
+
+.container {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1402px;
+}
+
+.main_b2 {
+    margin: 0 0 80px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.main_b2_title {
+    font-family: 'Moula';
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #232323;
+    margin: 0 0 36px;
+}
+
+.main_b2_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.main_b2_item {
+    width: 30.32%;
+    margin: 0 4.52% 36px 0;
+}
+
+.main_b2_item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.main_b2_item_top {
+    display: flex;
+    align-items: center;
+    margin: 0 0 24px;
+}
+
+.main_b2_item_top_ico {
+    margin: 0 24px 0 0;
+}
+
+.main_b2_item_top_title {
+    width: calc(100% - 56px - 24px);
+    font-family: 'Moula';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #232323;
+}
+
+.main_b2_item_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #707070;
+}
+
+.main_b2_btn {
+    text-align: center;
+}
+
+.btn_violet {
+    display: inline-block;
+    font-family: 'Moula';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    border-radius: 10px;
+    padding: 20px 48px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background: #7250E6;
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+   
+    .main_b2_item { width: 45%; }
+    
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+    .container { padding: 0 17px; }
+    .btn { padding: 18px 30px; font-size: 12px; border-radius: 10px; }
+    .icon { width: 44px; height: 44px; border-radius: 8px; }
+    .btn_violet { padding: 18px 30px; font-size: 12px; border-radius: 10px; min-width: 303px; }
+    
+
+    .main_b2 { margin: 0 0 28px; }
+        .main_b2_title { margin: 0 0 22px; font-size: 28px; }
+        .main_b2_list { display: block; padding: 0 0 12px; }
+            .main_b2_item { width: 100%; margin: 0; padding: 0 0 28px; }
+                .main_b2_item_top { margin: 0 0 16px; }
+                    .main_b2_item_top_ico { margin: 0 14px 0 0; }
+                    .main_b2_item_top_title { width: calc(100% - 58px); font-size: 18px; line-height: 1.2; }
+                        .main_b2_item_top_title br { display: none; }
+                .main_b2_item_text { font-size: 16px; }
+    
+ 
+}

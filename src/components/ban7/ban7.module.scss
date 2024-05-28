@@ -1,0 +1,122 @@
+
+.container {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1402px;
+}
+
+.main_b7 {
+    background: #232323;
+    position: relative;
+    padding: 56px 15.6944% 65px 38.8888%;
+    overflow: hidden;
+    margin: 0 0 80px;
+    font-size: 0;
+    line-height: 0;
+    border-radius: 10px;
+}
+
+.main_b7_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 28.98%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main_b7_img img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.main_b7_title {
+    font-family: 'Moula';
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 0 16px;
+}
+
+.main_b7_text {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin: 0 0 48px;
+}
+
+.main_b7_btn a {
+    padding: 20px 47px;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Moula';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    border-radius: 10px;
+    padding: 20px 39px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background: linear-gradient(270deg, #7250E6 33%, #FF5C87 66%);
+    background-size: 300% 100%;
+    background-position: 66% 0;
+    animation: background 3s infinite alternate;
+}
+
+
+
+@media only screen and (max-width: 1259px) {
+    
+    .main_b7 { padding-right: 8%; }
+
+    
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .main_b7 { padding: 40px 5% 40px 35%; }
+        .main_b7_title { font-size: 32px; }
+        .main_b7_text { font-size: 21px; margin: 0 0 30px; }
+    
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+    .container { padding: 0 17px; }
+    .btn { padding: 18px 30px; font-size: 12px; border-radius: 10px; }
+    .icon { width: 44px; height: 44px; border-radius: 8px; }
+    .btn_violet { padding: 18px 30px; font-size: 12px; border-radius: 10px; min-width: 303px; }
+    
+
+
+   
+
+    .main_b7 { padding: 29px 17px 56px; margin: 0 0 28px; }
+        .main_b7_img { width: 258px; opacity: 0.1; }
+        .main_b7_content { position: relative; z-index: 2; }
+            .main_b7_title { font-size: 22px; line-height: 1.1; margin: 0 0 8px; }
+            .main_b7_text { margin: 0 0 24px; font-size: 18px; line-height: 1.1; }
+            .main_b7_btn { text-align: center; }
+                .main_b7_btn .btn { min-width: 303px; }
+    
+   
+
+
+
+
+}

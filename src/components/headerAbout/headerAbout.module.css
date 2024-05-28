@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Moula';
+    src: url('/assets/fonts/Moula-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moula';
+    src: url('/assets/fonts/Moula-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moula';
+    src: url('/assets/fonts/Moula-ExtraBold.woff') format('woff');
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moula';
+    src: url('/assets/fonts/Moula-Black.woff') format('woff');
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+
+.container { 
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1402px; 
+}
+
+.kam { 
+    margin: 0 0 39px; 
+    font-weight: 400; 
+    font-size: 13px; 
+    line-height: 1.2; 
+    text-transform: uppercase; 
+    color: #707070; 
+}
+.kb_title { 
+    font-weight: 700; 
+}
+.page_header { padding: 20px 0 34px; }
+
+.page_header h1 { 
+    font-family: 'Moula'; 
+    font-weight: 900; 
+    font-size: 38px; 
+    line-height: 1.2; 
+    margin: 0 0 32px; 
+    color: #232323; 
+    text-transform: uppercase; }
+
+
+
+    @media only screen and (max-width: 1259px) {
+    
+ 
+    
+}
+
+
+@media only screen and (max-width: 991px) {
+    
+    .main_b1_banner { padding-right: 45%; }
+        .main_b1_banner_img { width: 45%; right: 0; }
+    
+    .main_b2_item { width: 45%; }
+    
+    .main_b4_carousel_item_top { padding: 0; margin: 0 0 30px; }
+        .main_b4_carousel_item_top_title { width: 50%; font-size: 26px; }
+        .main_b4_carousel_item_top_btn { padding: 0; }
+    .main_b4_carousel_item_adv { flex-wrap: wrap; }
+        .main_b4_carousel_item_adv_item { margin-bottom: 10px; }
+    
+    .main_b6_list { flex-wrap: wrap; margin: 0; }
+        .main_b6_item { width: 50%; margin: 0 0 30px; }
+    
+    .main_b7 { padding: 40px 5% 40px 35%; }
+        .main_b7_title { font-size: 32px; }
+        .main_b7_text { font-size: 21px; margin: 0 0 30px; }
+    
+    .main_b9_wrap { padding: 40px 5%; }
+    
+    .f_menu_catalog, .f_menu_services { display: none; }
+    .f_top_item, .f_top_item:last-child { width: 100%; max-width: 220px; }
+    
+    .products_wrap { flex-wrap: wrap; margin: 0 0 24px; }
+        .sidebar { width: 100%; }
+            .sidebar-block .widgettitle { padding: 13px 17px; box-sizing: border-box; display: inline-block; font-style: normal; font-weight: 400; font-size: 13px; line-height: 16px;  color: #707070; border: 2px solid #D9D9D9; border-radius: 10px; margin: 0 0 24px; }
+            .sidebar-block .textwidget { display: none; }
+        .products_content { width: 100%; }
+    
+    .services_item { width: 48%; margin-right: 4%; }
+    .services_item:nth-child(2n) { margin-right: 0; }
+    
+    .service_profitably_item { width: calc(50% - 18px); }
+    .service_profitably_item:nth-child(3n) { margin-right: 36px; }
+    .service_profitably_item:nth-child(2n) { margin-right: 0; }
+    
+    .service_block_support_item { width: calc(50% - 9px); }
+    .service_block_support_item:nth-child(2n) { margin-right: 0; }
+    
+    .service_block_form_wrap { display: block; padding: 52px 27px 55px; }
+        .service_block_form_content { width: 100%; margin: 0 0 30px; }
+        .service_block_form { width: 100%; max-width: 440px; margin: 0 auto; }
+    
+    .service_text_block_list_item { width: calc(50% - 9px); }
+    .service_text_block_list_item:nth-child(2n) { margin-right: 0; }
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+    .container { padding: 0 17px; }
+    .btn { padding: 18px 30px; font-size: 12px; border-radius: 10px; }
+    .icon { width: 44px; height: 44px; border-radius: 8px; }
+    .btn_violet { padding: 18px 30px; font-size: 12px; border-radius: 10px; min-width: 303px; }
+    
+    .header_wrap { height: 69px; }
+    .header { padding: 16px 0; height: 69px; }
+
+
+    .page_header { padding: 10px 0 16px; }
+        .page_header h1 { font-size: 22px; margin: 0 0 19px; }
+    .map iframe { height: 320px; }
+    
+ 
+    
+}

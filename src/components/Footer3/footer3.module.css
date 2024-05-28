@@ -1,0 +1,198 @@
+.container {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1402px;
+}
+
+.footer {
+    margin: 80px 0 0;
+    padding: 0 0 40px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.f_top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 0 40px;
+}
+
+.f_top_item {
+    width: 15.16%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #232323;
+}
+
+.f_top_item:last-child {
+    width: 15.45%;
+}
+
+.f_top_item_title {
+    margin: 0 0 16px;
+}
+
+.f_phone, .f_email, .f_telegram {
+    margin: 0 0 8px;
+}
+
+.f_phone a, .f_email a, .f_telegram a {
+    text-decoration: none;
+    color: #707070;
+    padding: 0 0 0 42px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 28px;
+    white-space: nowrap;
+}
+
+.f_telegram a i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 28px;
+    background: #0088CC url(/assets/icons/TG_icon2.svg) no-repeat center center;
+    background-size: 67% auto;
+    border-radius: 5px;
+}
+
+.f_email a i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 28px;
+    background: #FF5C87 url(/assets/icons/EMAIL_icon2.svg) no-repeat center center;
+    background-size: 67% auto;
+    border-radius: 5px;
+}
+
+.f_phone a i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 28px;
+    background: #7250E6 url(/assets/icons/PHONE_icon2.svg) no-repeat center center;
+    border-radius: 5px;
+}
+
+.f_phone a:hover, .f_email a:hover, .f_telegram a:hover {
+    opacity: 0.8;
+}
+
+.f_adres {
+    margin: 16px 0 0;
+}
+
+.f_menu {
+    padding: 0;
+    margin: 0;
+}
+
+.f_menu ul {
+    list-style: none;
+}
+
+.f_menu ul li + li {
+    padding: 12px 0 0;
+}
+
+.f_menu ul li a {
+    color: #707070;
+    text-decoration: none;
+}
+
+.f_menu ul li a:hover {
+    color: #7250E6;
+}
+
+.f_menu ul ul {
+    padding: 12px 0 0 33px;
+}
+
+.f_payments {
+    margin: 0 0 12px;
+    display: flex;
+}
+
+.f_payments img {
+    width: 28px;
+    height: auto;
+    margin: 0 4px 0 0;
+}
+
+.f_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0 0;
+    border-top: 1px solid #E5E5E5;
+}
+
+.f_logo {
+    width: 13.92%;
+}
+
+.f_logo img {
+    width: 100%;
+}
+
+.f_copyright {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #737373;
+}
+
+
+
+@media only screen and (max-width: 1259px) {
+  
+}
+
+
+@media only screen and (max-width: 991px) {
+    
+ 
+    .f_menu_catalog, .f_menu_services { display: none; }
+    .f_top_item, .f_top_item:last-child { width: 100%; max-width: 220px; }
+    
+   
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+    .container { padding: 0 17px; }
+    .btn { padding: 18px 30px; font-size: 12px; border-radius: 10px; }
+    .icon { width: 44px; height: 44px; border-radius: 8px; }
+    .btn_violet { padding: 18px 30px; font-size: 12px; border-radius: 10px; min-width: 303px; }
+    
+  
+    .footer { padding: 95px 0 48px; margin: 36px 0 0; position: relative; }
+        .footer:before { content: ''; position: absolute; left: 16px; right: 16px; top: 0; height: 1px; background: #E5E5E5; }
+        .f_top { display: block; padding: 0; }
+            .f_top_item, .f_top_item:last-child { width: 100%; max-width: none; padding: 0 0 32px; font-size: 16px; line-height: 1.25; }
+            .f_top_item:last-child { width: 100%; }
+                .f_adres { display: none; }
+                .f_top_item_title { margin: 0 0 16px; }
+                .f_menu ul li + li { padding: 12px 0 0; }
+                    .f_menu ul ul { padding: 12px 0 0 15px; }
+                .f_payments { margin: 0 0 12px; }
+                    .f_payments img { width: 28px; margin: 0 4px 0 0; }
+                .f_payments_text { font-size: 12px; line-height: 1.2; color: #707070; }
+        .f_bottom { padding: 0; display: block; border: none; }
+            .f_logo { width: 191px; position: absolute; left: 16px; top: 28px; }
+            .f_copyright { margin: 0; }
+    
+    
+   
+
+}

@@ -1,0 +1,101 @@
+
+.block_banner_consultation {
+    font-family: 'Moula'; 
+    padding: 61px 36.8% 55px 6.2682%; 
+    margin: 100px auto 86px; 
+    background: #232323; 
+    border-radius: 10px; 
+    position: relative; 
+    z-index: 1; 
+    max-width: 1372px;
+    width: 80%;
+    padding-left: 86px;
+}
+.block_banner_consultation_title { 
+    font-weight: 800; 
+    font-size: 38px; 
+    line-height: 1.2; 
+    text-transform: uppercase; 
+    color: #FFFFFF; 
+    margin: 0 0 16px; 
+}
+.block_banner_consultation_desc { 
+    font-size: 24px; 
+    line-height: 1.2; 
+    text-transform: uppercase; 
+    color: #FFFFFF; 
+    margin: 0 0 48px; 
+}
+.block_banner_consultation_btn .btn { 
+    padding-left: 47px; 
+    padding-right: 47px; 
+}
+.block_banner_consultation_img { 
+    width: 32.65%; 
+    position: absolute; 
+    z-index: -1; right: 3.79%; 
+    bottom: 13px; }
+.block_banner_consultation_img img { 
+    width: 100%; 
+}
+
+.container {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1402px;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Moula';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    border-radius: 10px;
+    padding: 20px 39px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background: linear-gradient(270deg, #7250E6 33%, #FF5C87 66%);
+    background-size: 300% 100%;
+    background-position: 66% 0;
+    animation: background 3s infinite alternate;
+}
+
+@media only screen and (max-width: 1259px) {
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    
+
+
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+    .container { padding: 0 17px; }
+    .btn { padding: 18px 30px; font-size: 12px; border-radius: 10px; }
+    .icon { width: 44px; height: 44px; border-radius: 8px; }
+    .btn_violet { padding: 18px 30px; font-size: 12px; border-radius: 10px; min-width: 303px; }
+    
+
+
+    .block_banner_consultation_title { font-size: 22px; margin: 0 0 8px; line-height: 1.1; }
+    .block_banner_consultation_desc { margin: 0 0 24px; font-size: 18px; line-height: 1.2; }
+    .block_banner_consultation_btn .btn { width: 100%; padding-left: 30px; padding-right: 30px; }
+    .block_banner_consultation_img { opacity: 0.1; right: 20px; top: 13px; bottom: 0; width: 254px; }
+    
+
+
+    .block_delivery_item_title { font-size: 18px; }
+    
+}
